@@ -590,10 +590,11 @@ console.log((0, _add.multiplication)(5, 5));
 },{"./add":"9recR"}],"9recR":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "multiplication", ()=>multiplication);
-function multiplication(a, b) {
-    return a * b;
+parcelHelpers.export(exports, "addition", ()=>addition);
+function addition(a, b) {
+    return a + b;
 }
+module.exports = addition;
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"di7xM"}],"di7xM":[function(require,module,exports) {
 exports.interopDefault = function(a) {
